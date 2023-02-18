@@ -28,7 +28,7 @@ public class InfoTest {
 		
 		   
 		     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		     
+		       driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		}
 	
 	@BeforeMethod
@@ -36,6 +36,7 @@ public class InfoTest {
 	public void lunchApp()
 	{
 		System.out.println("ApplicationLounch");
+		  driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 driver.get("https://www.medplusmart.com/");
 		 
 		 Information info=new Information(driver);

@@ -25,6 +25,7 @@ public class AddToCartTest {
 		
 		     driver.get("https://www.medplusmart.com/");
 		     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+				    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);			       
 		     
 		}
 	
@@ -32,6 +33,7 @@ public class AddToCartTest {
 	
 	public void lunchApp()
 	{
+		System.out.println("ApplicationLounch");
 		System.out.println("ApplicationLounch");
 		 driver.get("https://www.medplusmart.com/");
 		 
