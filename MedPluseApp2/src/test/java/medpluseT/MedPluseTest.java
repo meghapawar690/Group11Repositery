@@ -51,6 +51,7 @@ public class MedPluseTest {
 	public void CheckURlAndTitle() throws InterruptedException
 	{
 		System.out.println("Test_1");
+		System.out.println("Test_1");
 		ArrayList<String> addr=new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(addr.get(0));
 		Thread.sleep(5000);
