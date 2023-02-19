@@ -37,6 +37,7 @@ public class MedPluseTest {
 
 		
 		
+		//System.out.println("login");
 		System.out.println("login");
 		MedPluse medPluse=new MedPluse(driver);
 		medPluse.cross();
